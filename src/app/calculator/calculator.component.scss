@@ -1,0 +1,35 @@
+  .main-section {
+    background-color: #333298;
+    color: #fff;
+    height: 400px;
+
+    button {
+      background: #5f2fe4;
+      color: #cabbf1;
+      &:focus{
+          box-shadow: none;
+      }
+    }
+
+    .result {
+      font-size: 75px;
+    }
+
+    h6{
+        font-weight: 600;
+    }
+    .calculation-form {
+        input {
+            width: 100px;
+            height: 55px;
+            background: #d1bffb;
+            color: #565555;
+            font-size: 30px;
+            &:focus{
+                box-shadow: none;
+                outline: 0;
+                border: none;
+            }
+        }
+    }
+  }
